@@ -1,0 +1,21 @@
+view this for ref https://youtu.be/H9M02of22z4?si=Ubjiq5qyViUiQFVT
+this is a contact api where user can login or sign in 
+this logined user can store contact in there with will bestore in no sql it recommend so to see the entire before writing frontend
+
+when the user logined the user will give a accessToken which will be used to check the the user is coorect or not the is a session duration of 20m which can be control 
+
+controller>user.js>line.60m
+
+accesstoken will bunch of words we need give it to bearer every time we access any contact realated feature like get , create,delete,update contact 
+
+controller>contact.js
+
+the main is server 
+server.js 
+
+dbconnection.js is for mongodb 
+by the everything is store in mongodb a NOSQL database
+
+make sure to check models before making input's and output
+models>contactModel
+models>userModel
